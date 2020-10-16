@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Imoveis.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Imoveis.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Imoveis.Business.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Imoveis.Business/1.0.0": {
+      "type": "project",
+      "path": "../Imoveis.Business/Imoveis.Business.csproj",
+      "msbuildProject": "../Imoveis.Business/Imoveis.Business.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Imoveis.Business >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Italo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Git\\imoveis\\src\\Imoveis.Data\\Imoveis.Data.csproj",
+      "projectName": "Imoveis.Data",
+      "projectPath": "F:\\Git\\imoveis\\src\\Imoveis.Data\\Imoveis.Data.csproj",
+      "packagesPath": "C:\\Users\\Italo\\.nuget\\packages\\",
+      "outputPath": "F:\\Git\\imoveis\\src\\Imoveis.Data\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Italo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "F:\\Git\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj": {
+              "projectPath": "F:\\Git\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
