@@ -1,0 +1,12 @@
+C:\ProjetoItalo\imoveis\src\Imoveis.Data\bin\Debug\netcoreapp3.1\Imoveis.Data.deps.json
+C:\ProjetoItalo\imoveis\src\Imoveis.Data\bin\Debug\netcoreapp3.1\Imoveis.Data.dll
+C:\ProjetoItalo\imoveis\src\Imoveis.Data\bin\Debug\netcoreapp3.1\Imoveis.Data.pdb
+C:\ProjetoItalo\imoveis\src\Imoveis.Data\bin\Debug\netcoreapp3.1\Imoveis.Business.dll
+C:\ProjetoItalo\imoveis\src\Imoveis.Data\bin\Debug\netcoreapp3.1\Imoveis.Business.pdb
+C:\ProjetoItalo\imoveis\src\Imoveis.Data\obj\Debug\netcoreapp3.1\Imoveis.Data.csprojAssemblyReference.cache
+C:\ProjetoItalo\imoveis\src\Imoveis.Data\obj\Debug\netcoreapp3.1\Imoveis.Data.AssemblyInfoInputs.cache
+C:\ProjetoItalo\imoveis\src\Imoveis.Data\obj\Debug\netcoreapp3.1\Imoveis.Data.AssemblyInfo.cs
+C:\ProjetoItalo\imoveis\src\Imoveis.Data\obj\Debug\netcoreapp3.1\Imoveis.Data.csproj.CoreCompileInputs.cache
+C:\ProjetoItalo\imoveis\src\Imoveis.Data\obj\Debug\netcoreapp3.1\Imoveis.Data.csproj.CopyComplete
+C:\ProjetoItalo\imoveis\src\Imoveis.Data\obj\Debug\netcoreapp3.1\Imoveis.Data.dll
+C:\ProjetoItalo\imoveis\src\Imoveis.Data\obj\Debug\netcoreapp3.1\Imoveis.Data.pdb

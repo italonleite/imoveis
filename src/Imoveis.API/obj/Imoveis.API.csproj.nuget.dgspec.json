@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Git\\imoveis\\src\\Imoveis.API\\Imoveis.API.csproj": {}
+    "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.API\\Imoveis.API.csproj": {}
   },
   "projects": {
-    "F:\\Git\\imoveis\\src\\Imoveis.API\\Imoveis.API.csproj": {
+    "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.API\\Imoveis.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Git\\imoveis\\src\\Imoveis.API\\Imoveis.API.csproj",
+        "projectUniqueName": "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.API\\Imoveis.API.csproj",
         "projectName": "Imoveis.API",
-        "projectPath": "F:\\Git\\imoveis\\src\\Imoveis.API\\Imoveis.API.csproj",
-        "packagesPath": "C:\\Users\\Italo\\.nuget\\packages\\",
-        "outputPath": "F:\\Git\\imoveis\\src\\Imoveis.API\\obj\\",
+        "projectPath": "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.API\\Imoveis.API.csproj",
+        "packagesPath": "C:\\Users\\Italo Leite\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Italo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Italo Leite\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,16 +25,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nibogestao.pkgs.visualstudio.com/DefaultCollection/_packaging/CommonNuget/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "F:\\Git\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj": {
-                "projectPath": "F:\\Git\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj"
+              "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj": {
+                "projectPath": "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj"
               },
-              "F:\\Git\\imoveis\\src\\Imoveis.Data\\Imoveis.Data.csproj": {
-                "projectPath": "F:\\Git\\imoveis\\src\\Imoveis.Data\\Imoveis.Data.csproj"
+              "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Data\\Imoveis.Data.csproj": {
+                "projectPath": "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Data\\Imoveis.Data.csproj"
               }
             }
           }
@@ -76,35 +77,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Git\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj": {
+    "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Git\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj",
+        "projectUniqueName": "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj",
         "projectName": "Imoveis.Business",
-        "projectPath": "F:\\Git\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj",
-        "packagesPath": "C:\\Users\\Italo\\.nuget\\packages\\",
-        "outputPath": "F:\\Git\\imoveis\\src\\Imoveis.Business\\obj\\",
+        "projectPath": "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj",
+        "packagesPath": "C:\\Users\\Italo Leite\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Italo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Italo Leite\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nibogestao.pkgs.visualstudio.com/DefaultCollection/_packaging/CommonNuget/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -115,7 +117,15 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -126,43 +136,39 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Git\\imoveis\\src\\Imoveis.Data\\Imoveis.Data.csproj": {
+    "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Data\\Imoveis.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Git\\imoveis\\src\\Imoveis.Data\\Imoveis.Data.csproj",
+        "projectUniqueName": "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Data\\Imoveis.Data.csproj",
         "projectName": "Imoveis.Data",
-        "projectPath": "F:\\Git\\imoveis\\src\\Imoveis.Data\\Imoveis.Data.csproj",
-        "packagesPath": "C:\\Users\\Italo\\.nuget\\packages\\",
-        "outputPath": "F:\\Git\\imoveis\\src\\Imoveis.Data\\obj\\",
+        "projectPath": "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Data\\Imoveis.Data.csproj",
+        "packagesPath": "C:\\Users\\Italo Leite\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Italo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Italo Leite\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nibogestao.pkgs.visualstudio.com/DefaultCollection/_packaging/CommonNuget/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.2": {
             "projectReferences": {
-              "F:\\Git\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj": {
-                "projectPath": "F:\\Git\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj"
+              "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj": {
+                "projectPath": "C:\\ProjetoItalo\\imoveis\\src\\Imoveis.Business\\Imoveis.Business.csproj"
               }
             }
           }
@@ -174,7 +180,15 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -190,7 +204,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,9 @@
+C:\ProjetoItalo\imoveis\src\Imoveis.Business\bin\Debug\netcoreapp2.2\Imoveis.Business.deps.json
+C:\ProjetoItalo\imoveis\src\Imoveis.Business\bin\Debug\netcoreapp2.2\Imoveis.Business.dll
+C:\ProjetoItalo\imoveis\src\Imoveis.Business\bin\Debug\netcoreapp2.2\Imoveis.Business.pdb
+C:\ProjetoItalo\imoveis\src\Imoveis.Business\obj\Debug\netcoreapp2.2\Imoveis.Business.csprojAssemblyReference.cache
+C:\ProjetoItalo\imoveis\src\Imoveis.Business\obj\Debug\netcoreapp2.2\Imoveis.Business.AssemblyInfoInputs.cache
+C:\ProjetoItalo\imoveis\src\Imoveis.Business\obj\Debug\netcoreapp2.2\Imoveis.Business.AssemblyInfo.cs
+C:\ProjetoItalo\imoveis\src\Imoveis.Business\obj\Debug\netcoreapp2.2\Imoveis.Business.csproj.CoreCompileInputs.cache
+C:\ProjetoItalo\imoveis\src\Imoveis.Business\obj\Debug\netcoreapp2.2\Imoveis.Business.dll
+C:\ProjetoItalo\imoveis\src\Imoveis.Business\obj\Debug\netcoreapp2.2\Imoveis.Business.pdb

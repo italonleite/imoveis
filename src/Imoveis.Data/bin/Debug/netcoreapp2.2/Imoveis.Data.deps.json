@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Imoveis.Data/1.0.0": {
+        "dependencies": {
+          "Imoveis.Business": "1.0.0"
+        },
+        "runtime": {
+          "Imoveis.Data.dll": {}
+        }
+      },
+      "Imoveis.Business/1.0.0": {
+        "runtime": {
+          "Imoveis.Business.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Imoveis.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Imoveis.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
