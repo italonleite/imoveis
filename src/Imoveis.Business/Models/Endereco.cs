@@ -9,13 +9,23 @@ namespace Imoveis.Business.Models
         public Guid EnderecoId { get; set; }
         public string Cep { get; set; }
         public string Bairro { get; set; }
-        public int EnderecoImovel { get; set; }
+        public string EnderecoImovel { get; set; }
         public string Cidade { get; set; }
         public string Estado { get; set; }
 
         public Endereco()
         {
 
+        }
+
+        public Endereco(Guid enderecoId, string cep, string bairro, string enderecoImovel, string cidade, string estado)
+        {
+            EnderecoId = enderecoId;
+            Cep = cep;
+            Bairro = bairro;
+            EnderecoImovel = enderecoImovel;
+            Cidade = cidade;
+            Estado = estado;
         }
     }
 }
