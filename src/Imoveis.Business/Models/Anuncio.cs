@@ -18,7 +18,7 @@ namespace Imoveis.Business.Models
         public decimal ValorCondomomio { get; set; }
         public decimal Iptu { get; set; }
         public Endereco Endereco { get; set; }
-        public Usuario Usuario { get; set; }
+        public Guid UsuarioId { get; set; }
         public TipoImovel TipoImovel { get; set; }
 
         public Anuncio()
