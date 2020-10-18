@@ -14,6 +14,13 @@ namespace Imoveis.Business.Models
         {
 
         }
+
+        public TipoImovel(Guid tipoImovelId, string nome, ECaracteristica eCaracteristica)
+        {
+            TipoImovelId = tipoImovelId;
+            Nome = nome;
+            ECaracteristica = eCaracteristica;
+        }
     }
 
 }
