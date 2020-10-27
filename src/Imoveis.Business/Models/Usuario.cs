@@ -11,8 +11,9 @@ namespace Imoveis.Business.Models
         public Guid UsuarioId { get; set; }
         public string Login { get; set; }
         public string Email { get; set; }
-        public string Senha { get; set; }  
-   
+        public string Senha { get; set; }
+        public ICollection<Anuncio> Anuncios { get; set; }
+
         public Usuario()
         {
 
