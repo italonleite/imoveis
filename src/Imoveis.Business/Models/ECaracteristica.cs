@@ -3,6 +3,9 @@
     public enum ECaracteristica
     {
         RESIDENCIAL, 
-        COMERCIAL
+        COMERCIAL,
+        SITIO,
+        CONDOMINIO
+        
     }
 }

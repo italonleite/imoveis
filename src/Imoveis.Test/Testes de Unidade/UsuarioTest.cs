@@ -12,10 +12,10 @@ namespace Imoveis.Test
             //arrange
             var usuario = new Usuario(Guid.NewGuid(), "italonleite", "italonleite@gmail.com", "123" );
             var endereco = new Endereco(Guid.NewGuid(), "21210250", "sds", "xyza", "pancas", "es" );
-            var tipoImovel = new TipoImovel(Guid.NewGuid(), "21210250", ECaracteristica.COMERCIAL);
+            var imovel = new Imovel(Guid.NewGuid(), "aparatamento xyz", ECaracteristica.COMERCIAL, endereco);
 
             //act
-            var anuncio = usuario.CriarAnuncio(Guid.NewGuid(),10,1,1,1,2,10,100,endereco, usuario.UsuarioId, tipoImovel);
+            var anuncio = usuario.CriarAnuncio(Guid.NewGuid(),10,1,1,1,2,10,100,usuario, imovel);
 
             //assert
             Assert.NotNull(anuncio);

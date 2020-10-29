@@ -27,7 +27,7 @@ namespace Imoveis.Business.Models
             Senha = senha;
         }
 
-        public Anuncio CriarAnuncio(Guid anuncioId, decimal areaUtil, int quarto, int banheiro, int suite, int vaga, int andar, decimal valor, Endereco endereco, Guid usuarioId, TipoImovel tipoImovel)
+        public Anuncio CriarAnuncio(Guid anuncioId, decimal areaUtil, int quarto, int banheiro, int suite, int vaga, int andar, decimal valor, Usuario usuario, Imovel imovel)
         {
 
             var Anuncio = new Anuncio()
@@ -39,10 +39,9 @@ namespace Imoveis.Business.Models
                 Suite = suite,
                 Vaga = vaga,
                 Andar = andar,
-                Valor = valor,
-                Endereco = endereco,
-                UsuarioId = usuarioId,
-                TipoImovel = tipoImovel
+                Valor = valor,                
+                Usuario = usuario,
+                Imovel = imovel
             };
 
 

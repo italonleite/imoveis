@@ -9,7 +9,6 @@ namespace Imoveis.Business.Models
         public Guid ImovelId { get; set; }
         public string Nome { get; set; }
         public ECaracteristica ECaracteristica { get; set; }
-        public Guid EnderecoId { get; set; }
         public Endereco Endereco { get; set; }
 
         public Imovel()
@@ -17,12 +16,11 @@ namespace Imoveis.Business.Models
 
         }
 
-        public Imovel(Guid imovelId, string nome, ECaracteristica eCaracteristica, Guid enderecoId, Endereco endereco)
+        public Imovel(Guid imovelId, string nome, ECaracteristica eCaracteristica, Endereco endereco)
         {
             ImovelId = imovelId;
             Nome = nome;
             ECaracteristica = eCaracteristica;
-            EnderecoId = enderecoId;
             Endereco = endereco;
         }
     }
