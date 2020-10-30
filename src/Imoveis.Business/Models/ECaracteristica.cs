@@ -1,6 +1,6 @@
 ﻿namespace Imoveis.Business.Models
 {
-    public enum ECaracteristica
+    public enum EType
     {
         RESIDENCIAL, 
         COMERCIAL,

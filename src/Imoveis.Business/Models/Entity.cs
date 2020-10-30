@@ -8,7 +8,7 @@ namespace Imoveis.Business.Models
        
         public ValidationResult ValidationResult { get; protected set; }
 
-        public virtual bool EhValido()
+        public virtual bool IsValid()
         {
             throw new NotImplementedException();
         }        
