@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Imoveis.Business\Imoveis.Business.csproj" />
-    <ProjectReference Include="..\Imoveis.Data\Imoveis.Data.csproj" />
   </ItemGroup>
 
 </Project>
