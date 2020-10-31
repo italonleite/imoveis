@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imoveis.Business", "src\Imo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imoveis.Test", "src\Imoveis.Test\Imoveis.Test.csproj", "{F7FF44F7-AF49-49AE-8C69-F3A63D6E5833}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imoveis.Data", "src\Imoveis.Data\Imoveis.Data.csproj", "{A7838A87-C9AE-442E-9A90-0694882D1DA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F7FF44F7-AF49-49AE-8C69-F3A63D6E5833}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7FF44F7-AF49-49AE-8C69-F3A63D6E5833}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7FF44F7-AF49-49AE-8C69-F3A63D6E5833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7838A87-C9AE-442E-9A90-0694882D1DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7838A87-C9AE-442E-9A90-0694882D1DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7838A87-C9AE-442E-9A90-0694882D1DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7838A87-C9AE-442E-9A90-0694882D1DA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
